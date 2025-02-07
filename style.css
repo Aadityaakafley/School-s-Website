@@ -15,6 +15,13 @@
     transform: translate(-50%, -50%); /* Center the video */
     z-index: -1; /* Place the video behind other content */
 }
+nav {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: left;
+}
+
 
 .navbar {
     margin: 0;
@@ -415,7 +422,9 @@ font-size: 24px;
     width:100%;
 }
 .about-col h1{
-padding-top:0;
+    
+        margin-top: 50px; /* Adjust the value as needed */
+    
 }
 .about-col p{
     padding: 15px 0 25px;
@@ -460,15 +469,26 @@ padding-top:0;
 color:#222;
 }
 
-.blog-content{
-    margin:100px auto;
-    width:100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Screenshot 2025-02-06 103819.png);
-    background-position: center;
+.solid {
+    background-image: url('download.png'); 
     background-size: cover;
-    border-radius: 10px;
-    text-align:center;
-    padding : 100px 0;
-
+    background-position: center; 
+    transition: background-color 0.1s ease-in-out; 
+    Opacity:0.8;
+}
+.location {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100%; /* Full height of the container */
+    text-align: center; /* Center text */
+    background-color: #f0f0f0; /* Light background for contrast */
 }
 
+.center-iframe {
+    width: 80%; /* Set the width of the iframe */
+    height: 60%; /* Set the height of the iframe */
+    border: none; /* Remove default border */
+    margin-top: 200px; /* Increase margin to push the iframe down further */
+}
