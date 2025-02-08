@@ -363,7 +363,7 @@ padding-top:50px;
 .cta{
     margin:100px auto;
     width:100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(447232604_974268661365622_2193960075764706651_n.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/447232604_974268661365622_2193960075764706651_n.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -399,7 +399,7 @@ font-size: 24px;
 .sub-header{
     height:50vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(467635097_1099397322186088_2543808136287449294_n.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/467635097_1099397322186088_2543808136287449294_n.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
