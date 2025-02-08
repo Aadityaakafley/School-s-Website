@@ -481,8 +481,10 @@ color:#222;
     margin:auto;
     padding: 80px 0;
 }
-.iframe-container {
-    margin-top: 20px; /* Adjust this value as needed */
+.location-col {
+    position: bottom;
+  bottom: 20px; 
+  margin-top: 20px;
 }
 .contact-us{
     width: 80%;
